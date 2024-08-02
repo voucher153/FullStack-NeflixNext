@@ -3,7 +3,7 @@ import axios, { type CreateAxiosDefaults } from 'axios'
 import { errorCatch } from './error.catch'
 import { authService } from '@/services/auth.service'
 
-const baseURL = 'http://netflixnext-server.railway.internal/api'
+const baseURL = 'http://localhost:4200/api'
 
 const options: CreateAxiosDefaults = {
     baseURL: baseURL,
